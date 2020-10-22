@@ -1,0 +1,179 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  height:65px;
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+  width:100%;
+}
+
+.container{
+  text-align:center;
+  width:1170px;
+  margin:0 auto;
+}
+
+.header-left{
+  float:left;
+}
+
+.logo{
+  width:124px;
+  padding:20px 0px;
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+}
+
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.log-in{
+  display:block;
+  line-height:65px;
+  padding:0px 25px;
+  color:white;
+}
+
+.main{
+}
+
+.top{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  padding-top:180px;
+  padding-bottom:100px;
+  color:white;
+}
+
+.top p,h1{
+  opacity:0.7;
+}
+
+.top h1{
+  font-size:45px;
+  letter-spacing:5px;
+}
+
+.btn{
+  display:inline-block;
+  opacity:0.8;
+  padding:8px 24px;
+  margin:15px 5px;
+  color:white;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.submit{
+  background-color:#239b76;
+}
+
+.facebook{
+  background-color:#3b5998;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.heading{
+  padding-bottom:50px;
+  color:#5f5d60;
+  padding-top:80px;
+}
+
+h2{
+  font-weight:normal;
+}
+
+.medium{
+  height:580px;
+  background-color:#f7f7f7;
+}
+
+.lesson{
+  float:left;
+  width:25%;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-name{
+  color:white;
+  position:absolute;
+  top:44%;
+  width:100%;
+  font-weight:normal;
+}
+
+.lesson-description{
+  color:#b3aeb5;
+  margin:0 auto;
+  width:80%;
+  font-size:13px;
+  padding-top:15px;
+}
+
+.bottom{
+  padding-bottom:80px;
+}
+
+.message{
+  background-color:#5dca88;
+  padding:15px 40px;
+  box-shadow:0px 7px #1a7940;
+  margin-top:0px;
+}
+
+.message:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+footer{
+    border-top:1px solid #eee;
+}
+
+.footer-left{
+  text-align:left;
+  padding:30px 0px;
+  font-size:12px;
+  color:#b3aeb5;
+}
+
+.footer-logo{
+  width:124px;
+}
